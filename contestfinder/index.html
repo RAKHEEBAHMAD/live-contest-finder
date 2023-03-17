@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Live Contest Finder</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="title">
+            <h1>Live Contest finder</h1>
+            <h2>Happy Coding❤️<span class="typing">...</span></h2>
+        </div>
+        <div class="selectcontainer">
+            <select name="select" id="select" class="select">
+                <option value="" selected >Select contest</option>
+            </select>
+            <button id="btn" onclick="run()" class="btn">GO</button>
+        </div>
+        <div class="main">
+            <table class="table" border="0">
+                <tr>
+                    <th>Feild</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <div class="td">
+                        <td>Name</td>
+                        <td id="name"></td>
+                    </div>
+                </tr>
+                <tr>
+                    <td>URL</td>
+                    <td id="url"></td>
+                </tr>
+                <tr>
+                    <td>Start time</td>
+                    <td id="stime"></td>
+                </tr>
+                <tr>
+                    <td>End time</td>
+                    <td id="etime"></td>
+                </tr>
+                <tr>
+                    <td>Duration</td>
+                    <td id="duration"></td>
+                </tr>
+                <tr>
+                    <td>In 24 hours </td>
+                    <td id="check"></td>
+                </tr>
+                <tr>
+                    <td>Status</td>
+                    <td id="status"></td>
+                </tr>
+            </table>    
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+</html>
