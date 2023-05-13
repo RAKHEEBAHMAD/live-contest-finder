@@ -15,7 +15,7 @@ A powerful web application that helps you find and track live coding contests ha
 
 ## Demo
 
-Visit our live demo [here](https://contestfider.netlify.app) to experience the Live Contest Finder in action!
+Visit our live demo [here](https://contestfinder.netlify.app) to experience the Live Contest Finder in action!
 
 ## Installation
 
