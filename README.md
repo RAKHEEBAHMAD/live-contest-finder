@@ -24,7 +24,4 @@ To run the Live Contest Finder locally, follow these steps:
 1. Clone the repository:
    ```shell
    $ git clone https://github.com/RAKHEEBAHMAD/live-contest-finder.git
-2. Start the application::
-   ```shell
-   $ npm start
 
